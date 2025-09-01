@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { PageCollections } from '@nuxt/content'
-import * as locales from '@nuxt/ui-pro/locale'
+import * as locales from '@nuxt/ui/locale'
 
 const { seo } = useAppConfig()
 const site = useSiteConfig()

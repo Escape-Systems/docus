@@ -14,7 +14,7 @@ export default defineNuxtModule({
       filename: 'docus.css',
       getContents: () => {
         return `@import "tailwindcss";
-@import "@nuxt/ui-pro";
+@import "@nuxt/ui";
 
 @source "${contentDir.replace(/\\/g, '/')}/**/*";
 @source "../../app.config.ts";`
